@@ -9,5 +9,4 @@ fi
 export HOOK_BIND_LO_PORT=$1
 export LD_PRELOAD=./hook_bind_lo.so
 
-echo "HOOK_BIND_LO_PORT=${HOOK_BIND_LO_PORT}"
 exec $2 $3 $4 $5 $6 $7 $8 $9 
