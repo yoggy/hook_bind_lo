@@ -12,6 +12,12 @@ compile
 
 how to use
 =====================
+<pre>
+  $ ./hook_bind_lo
+  usage : hook_bind_lo port command [args...]
+
+</pre>
+
 IPv6
 <pre>
   $ ./hook_bind_lo 23456 nc -l -p 12345 -6
