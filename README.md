@@ -21,7 +21,7 @@ IPv6
 
 IPv4
 <pre>
-  $ ./hook_bind_lo 23456 nc -l -p 12345 -6
+  $ ./hook_bind_lo 23456 nc -l -p 12345 -4
   hook_bind_lo.so : [INFO] HOOK_BIND_LO_PORT=23456
   hook_bind_lo.so : [INFO] hook bind() : addr=127.0.0.1, port=23456
 </pre>
