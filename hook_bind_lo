@@ -6,7 +6,8 @@ if [ $# -lt 2 ]; then
 	exit 1
 fi
 
+export BASE_DIR=`dirname $0`
 export HOOK_BIND_LO_PORT=$1
-export LD_PRELOAD=./hook_bind_lo.so
+export LD_PRELOAD=${BASE_DIR}/hook_bind_lo.so
 
 exec $2 $3 $4 $5 $6 $7 $8 $9 
